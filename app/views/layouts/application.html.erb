@@ -20,7 +20,7 @@
 
     </div>
     <div class="col-xs-4 slogan">
-      Spluring out unsolicited advice about life since 2016
+      Splurting out unsolicited advice about life since 2016
     </div>
     <div class="col-xs-5 links">
       <%= link_to 'Contribute', '#' %>
@@ -30,7 +30,19 @@
   <hr />
   <br class="clear"/>
 
-<%= yield %>
+<div class="container">
+  <%= yield %>
+</div>
+
+<div class="footer">
+  <div class="container">
+    <div class="col-xs-6">
+      <%= link_to 'Lemme get, more quotes','#', class: 'next-quote'%>
+    </div>
+    <div class="col-xs-6 footer-blurb">
+      Proudly built in Brooklyn, NY by Akshai Rajendran (2016)
+  </div>
+</div>
 
 </body>
 </html>
